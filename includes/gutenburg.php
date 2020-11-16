@@ -43,3 +43,17 @@ function myblock_defalut_colors()
     );
 }
 add_action('init', 'myblock_defalut_colors');
+
+function my_gutenburg_blocks()
+{
+    wp_register_script('custom-cta', plugin_dir_url(__DIR__) . '/build/index.js', ['wp-blocks']);
+
+    register_block_type(
+        'myblock/custom-cta',
+        [
+            'editor_script' => 'custom-cta'
+        ]
+    );
+}
+
+add_action('init', 'my_gutenburg_blocks');

@@ -1,0 +1,25 @@
+{
+  "name": "custom-gutenburg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shakil22291/custom-gutenburg-block.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shakil22291/custom-gutenburg-block/issues"
+  },
+  "homepage": "https://github.com/Shakil22291/custom-gutenburg-block#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "12.5.0"
+  }
+}
